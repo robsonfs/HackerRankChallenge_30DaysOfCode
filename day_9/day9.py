@@ -3,6 +3,7 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 
+# Just to make the tests pass on HackerRank console.
 if __name__ == '__main__':
     N = int(input())
     print(factorial(N))
